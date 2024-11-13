@@ -103,6 +103,17 @@ alias as='nano ~/.bashrc'
 #Apply aliases
 alias ac='source ~/.bashrc'
 
+alias srp='systemctl restart postfix'
+alias srd='systemctl restart dovecot'
+
+alias ssp='systemctl status postfix'
+alias ssd='systemctl status dovecot'
+
+alias rp='postfix reload'
+
+alias svd='nano /etc/postfix/virtual_domains'
+alias svm='nano /etc/postfix/virtual_mailbox'
+alias svu='nano /etc/postfix/virtual_users'
 
 # Alias definitions.
 # You may want to put all your additions into a separate file like
