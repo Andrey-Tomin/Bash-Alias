@@ -87,6 +87,7 @@ alias l='ls -CF'
 alias sr='systemctl restart'
 alias ss='systemctl status'
 
+# Start my alias
 alias d='docker ps'
 alias da='docker ps -a'
 alias ds='docker stop'
@@ -114,6 +115,16 @@ alias rp='postfix reload'
 alias svd='nano /etc/postfix/virtual_domains'
 alias svm='nano /etc/postfix/virtual_mailbox'
 alias svu='nano /etc/postfix/virtual_users'
+
+alias pcon='nano /etc/postfix/main.cf'
+
+alias cdp='cd /etc/postfix/ && ls -la'
+
+
+
+
+
+# End my alias
 
 # Alias definitions.
 # You may want to put all your additions into a separate file like
